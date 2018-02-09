@@ -1,0 +1,172 @@
+﻿$axure.loadCurrentPage({
+  "url":"科目余额表.html",
+  "generationDate":new Date(1462938818748.3),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"39ec07d0bcd4401787bfaf0fac57359b",
+    "type":"Axure:Page",
+    "name":"科目余额表",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"185877d234e24beb9dcd0c7d9b537d65",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"75b499dffa7e42edbfa56f1e6606d0ac",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/科目余额表/u0.png"}},
+{
+          "id":"d5d86c38f2854a2f902842cadb1e41de",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":495,
+              "y":110},
+            "size":{
+              "width":215,
+              "height":34}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"86263668c6c14d83b3c4e423ee89bae0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":495,
+                  "y":110},
+                "size":{
+                  "width":215,
+                  "height":34}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总分类账/u10.png"}},
+{
+          "id":"db8229f79c7946ff8b3299e85c69d1bb",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":506,
+              "y":102},
+            "size":{
+              "width":180,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 科目余额表-日期弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"科目余额表-日期弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"e40c9d24662a44ab8bb06a11b52ead2b",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":506,
+              "y":40},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 账簿",
+                      "target":{
+                        "targetType":"page",
+                        "url":"账簿.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "185877d234e24beb9dcd0c7d9b537d65":{
+      "scriptId":"u0"},
+    "75b499dffa7e42edbfa56f1e6606d0ac":{
+      "scriptId":"u1"},
+    "d5d86c38f2854a2f902842cadb1e41de":{
+      "scriptId":"u2"},
+    "86263668c6c14d83b3c4e423ee89bae0":{
+      "scriptId":"u3"},
+    "db8229f79c7946ff8b3299e85c69d1bb":{
+      "scriptId":"u4"},
+    "e40c9d24662a44ab8bb06a11b52ead2b":{
+      "scriptId":"u5"}}});

@@ -1,0 +1,86 @@
+﻿$axure.loadCurrentPage({
+  "url":"记账-计提弹出框.html",
+  "generationDate":new Date(1462938818291.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ecc504359a574c538eb4b0ffd0e7a324",
+    "type":"Axure:Page",
+    "name":"记账-计提弹出框",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b26c43a0356d489e802b971bc899d892",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"855b1cba4c434903abdb7a156a29b18d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 记账-新增凭证",
+                      "target":{
+                        "targetType":"page",
+                        "url":"记账-新增凭证.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/记账-计提弹出框/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b26c43a0356d489e802b971bc899d892":{
+      "scriptId":"u0"},
+    "855b1cba4c434903abdb7a156a29b18d":{
+      "scriptId":"u1"}}});

@@ -1,0 +1,390 @@
+﻿$axure.loadCurrentPage({
+  "url":"记账-新增凭证.html",
+  "generationDate":new Date(1462938818241.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"d5298c272f6644a886a0735a699571a0",
+    "type":"Axure:Page",
+    "name":"记账-新增凭证",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"81ca1cb311c6461d9baecd0631624aff",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8bdbf3d0c0534591a3f4637a27be40f4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/记账-新增凭证/u0.png"}},
+{
+          "id":"dea3d801c78e4f05a3ca99d22627a84d",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":520,
+              "y":220},
+            "size":{
+              "width":490,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择会计科目",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择会计科目.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"c47907bd08354acf9a524417a492f299",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":520,
+              "y":433},
+            "size":{
+              "width":490,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择会计科目",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择会计科目.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"80b376c6a9ea4a49a1f95f5ef3d7360b",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":690,
+              "y":90},
+            "size":{
+              "width":140,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 记账-时间弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"记账-时间弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"79cb59132aa04cd792e4fe887a5b29ed",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":979,
+              "y":150},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 记账-增减行弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"记账-增减行弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"a1f7fb94f17245dab9e034ff3124b938",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":979,
+              "y":360},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 记账-增减行弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"记账-增减行弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"96e8896765044caca7a9a5b3e58d19fb",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":540,
+              "y":873},
+            "size":{
+              "width":460,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 记账",
+                      "target":{
+                        "targetType":"page",
+                        "url":"记账.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"c4470189afa54c5194d2b84d4c8251f1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":900,
+              "y":813},
+            "size":{
+              "width":110,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 Reload",
+                      "target":{
+                        "targetType":"reloadPage",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"96031e8af4594839ad82ba6b8d1521f3",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":540,
+              "y":160},
+            "size":{
+              "width":330,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 记账-计提弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"记账-计提弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"7997cc7664a34b0bb246f02afa61e561",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":540,
+              "y":373},
+            "size":{
+              "width":350,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 记账-计提弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"记账-计提弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"5f40ea0b177946ef89262409cf7bf7ea",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":506,
+              "y":40},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 记账",
+                      "target":{
+                        "targetType":"page",
+                        "url":"记账.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "81ca1cb311c6461d9baecd0631624aff":{
+      "scriptId":"u0"},
+    "8bdbf3d0c0534591a3f4637a27be40f4":{
+      "scriptId":"u1"},
+    "dea3d801c78e4f05a3ca99d22627a84d":{
+      "scriptId":"u2"},
+    "c47907bd08354acf9a524417a492f299":{
+      "scriptId":"u3"},
+    "80b376c6a9ea4a49a1f95f5ef3d7360b":{
+      "scriptId":"u4"},
+    "79cb59132aa04cd792e4fe887a5b29ed":{
+      "scriptId":"u5"},
+    "a1f7fb94f17245dab9e034ff3124b938":{
+      "scriptId":"u6"},
+    "96e8896765044caca7a9a5b3e58d19fb":{
+      "scriptId":"u7"},
+    "c4470189afa54c5194d2b84d4c8251f1":{
+      "scriptId":"u8"},
+    "96031e8af4594839ad82ba6b8d1521f3":{
+      "scriptId":"u9"},
+    "7997cc7664a34b0bb246f02afa61e561":{
+      "scriptId":"u10"},
+    "5f40ea0b177946ef89262409cf7bf7ea":{
+      "scriptId":"u11"}}});

@@ -1,0 +1,86 @@
+﻿$axure.loadCurrentPage({
+  "url":"模板-时间弹出框.html",
+  "generationDate":new Date(1462938818341.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"97057d4f0a9d4758be0262c417955669",
+    "type":"Axure:Page",
+    "name":"模板-时间弹出框",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"3aa3939310d546c0a5ca9abd53b9cd0f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"77ebbf82788c4e0f8e25b74137feb8bc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 记账-新增凭证",
+                      "target":{
+                        "targetType":"page",
+                        "url":"记账-新增凭证.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/记账-时间弹出框/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "3aa3939310d546c0a5ca9abd53b9cd0f":{
+      "scriptId":"u0"},
+    "77ebbf82788c4e0f8e25b74137feb8bc":{
+      "scriptId":"u1"}}});

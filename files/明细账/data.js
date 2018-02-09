@@ -1,0 +1,278 @@
+﻿$axure.loadCurrentPage({
+  "url":"明细账.html",
+  "generationDate":new Date(1462938818704.3),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"685d5132dcea4d2489e46aef88435562",
+    "type":"Axure:Page",
+    "name":"明细账",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"7759a17548924402b5ac791b7bd93fec",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":508,
+              "y":94},
+            "size":{
+              "width":215,
+              "height":34}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4fe95fab66804228bd07483cb327daa1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":508,
+                  "y":94},
+                "size":{
+                  "width":215,
+                  "height":34}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总分类账/u10.png"}},
+{
+          "id":"3ff5c55ed53a4c309220446ac7802fdd",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":508,
+              "y":94},
+            "size":{
+              "width":215,
+              "height":34}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ae1695d632644ece9fb7d61e11c333b0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":508,
+                  "y":94},
+                "size":{
+                  "width":215,
+                  "height":34}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总分类账/u10.png"}},
+{
+          "id":"76ac4bf343d9423da490f73e81449984",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3dcabb5711884b4d82f49030e7ec6394",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/明细账/u4.png"}},
+{
+          "id":"156181b8c3d04fc7a6f859f843460f0e",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":508,
+              "y":40},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 账簿",
+                      "target":{
+                        "targetType":"page",
+                        "url":"账簿.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"3bbddd76f3574f8aaa1e7748deb61c38",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":508,
+              "y":94},
+            "size":{
+              "width":215,
+              "height":34}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2e0d99a01ca541b9a7af53eb7ae14012",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":508,
+                  "y":94},
+                "size":{
+                  "width":215,
+                  "height":34}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总分类账/u10.png"}},
+{
+          "id":"23ff8279885e4757ab2bf78f43670837",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":514.5,
+              "y":88},
+            "size":{
+              "width":202,
+              "height":46}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 明细账-日期弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"明细账-日期弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"67e13cf8820b42d3b40aeedb401f1e21",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":508,
+              "y":160},
+            "size":{
+              "width":502,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 明细账-选择科目",
+                      "target":{
+                        "targetType":"page",
+                        "url":"明细账-选择科目.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "7759a17548924402b5ac791b7bd93fec":{
+      "scriptId":"u0"},
+    "4fe95fab66804228bd07483cb327daa1":{
+      "scriptId":"u1"},
+    "3ff5c55ed53a4c309220446ac7802fdd":{
+      "scriptId":"u2"},
+    "ae1695d632644ece9fb7d61e11c333b0":{
+      "scriptId":"u3"},
+    "76ac4bf343d9423da490f73e81449984":{
+      "scriptId":"u4"},
+    "3dcabb5711884b4d82f49030e7ec6394":{
+      "scriptId":"u5"},
+    "156181b8c3d04fc7a6f859f843460f0e":{
+      "scriptId":"u6"},
+    "3bbddd76f3574f8aaa1e7748deb61c38":{
+      "scriptId":"u7"},
+    "2e0d99a01ca541b9a7af53eb7ae14012":{
+      "scriptId":"u8"},
+    "23ff8279885e4757ab2bf78f43670837":{
+      "scriptId":"u9"},
+    "67e13cf8820b42d3b40aeedb401f1e21":{
+      "scriptId":"u10"}}});

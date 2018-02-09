@@ -1,0 +1,167 @@
+﻿$axure.loadCurrentPage({
+  "url":"会计科目.html",
+  "generationDate":new Date(1462938818057.27),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"d330b5cf3fc64b8f9f844dd820cf198b",
+    "type":"Axure:Page",
+    "name":"会计科目",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"8753b00c387f44c9aae4a6d29778da72",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"229b1603e3bb454fa522263addfb28dd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/会计科目/u0.png"}},
+{
+          "id":"217691a5ab994337a1b0ce3bd6be849b",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":508,
+              "y":39},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 企业账套",
+                      "target":{
+                        "targetType":"page",
+                        "url":"企业账套.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"1b04202b0f4d431b8fb9351a2c7693f1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":493,
+              "y":250},
+            "size":{
+              "width":529,
+              "height":115}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 科目期初",
+                      "target":{
+                        "targetType":"page",
+                        "url":"科目期初_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"d50fcdf0aa224149912054d289531f23",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":920,
+              "y":39},
+            "size":{
+              "width":90,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 会计科目-试算平衡",
+                      "target":{
+                        "targetType":"page",
+                        "url":"会计科目-试算平衡.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "8753b00c387f44c9aae4a6d29778da72":{
+      "scriptId":"u0"},
+    "229b1603e3bb454fa522263addfb28dd":{
+      "scriptId":"u1"},
+    "217691a5ab994337a1b0ce3bd6be849b":{
+      "scriptId":"u2"},
+    "1b04202b0f4d431b8fb9351a2c7693f1":{
+      "scriptId":"u3"},
+    "d50fcdf0aa224149912054d289531f23":{
+      "scriptId":"u4"}}});

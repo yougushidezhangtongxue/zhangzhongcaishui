@@ -1,0 +1,103 @@
+﻿$axure.loadCurrentPage({
+  "url":"结账-反结转完毕.html",
+  "generationDate":new Date(1462938818543.29),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"72e25a9585e34a0484e00fb8e3d02103",
+    "type":"Axure:Page",
+    "name":"结账-反结转完毕",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"49744b5c7369420996a3cae6421fc639",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0b1f774691a2403d8709cbb75cb29fde",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/结账-反结转完毕/u0.png"}},
+{
+          "id":"502c959d52a44bf5832e8939e5e29b52",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":622,
+              "y":470},
+            "size":{
+              "width":280,
+              "height":70}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 结账-凭证列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"结账-凭证列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "49744b5c7369420996a3cae6421fc639":{
+      "scriptId":"u0"},
+    "0b1f774691a2403d8709cbb75cb29fde":{
+      "scriptId":"u1"},
+    "502c959d52a44bf5832e8939e5e29b52":{
+      "scriptId":"u2"}}});

@@ -1,0 +1,169 @@
+﻿$axure.loadCurrentPage({
+  "url":"引导页1.html",
+  "generationDate":new Date(1462938817534.24),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"5171cee948ba4271aad96d23e6c207ec",
+    "type":"Axure:Page",
+    "name":"引导页1",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"7e184c401131448390d5885171851a64",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"66435b21bd2c4c15be2bbd3ac988fcf6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/引导页1/u0.png"}},
+{
+          "id":"050e6c21a59d4b22b8e4a4d0bc506483",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Normal', 'Arial'",
+            "fontSize":"30px",
+            "fontWeight":"400",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF6633,
+              "opacity":1},
+            "location":{
+              "x":950,
+              "y":10},
+            "size":{
+              "width":61,
+              "height":36}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"34256f6d5b2e4125aedc030c389ddcc6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Normal', 'Arial'",
+                "fontSize":"30px",
+                "fontWeight":"400",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6633,
+                  "opacity":1},
+                "location":{
+                  "x":950,
+                  "y":10},
+                "size":{
+                  "width":61,
+                  "height":36}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 新用户",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新用户.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"3b8ec2811d664110b062173c2d0730fc",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":70},
+            "size":{
+              "width":529,
+              "height":870}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 引导页2",
+                      "target":{
+                        "targetType":"page",
+                        "url":"引导页2.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "7e184c401131448390d5885171851a64":{
+      "scriptId":"u0"},
+    "66435b21bd2c4c15be2bbd3ac988fcf6":{
+      "scriptId":"u1"},
+    "050e6c21a59d4b22b8e4a4d0bc506483":{
+      "scriptId":"u2"},
+    "34256f6d5b2e4125aedc030c389ddcc6":{
+      "scriptId":"u3"},
+    "3b8ec2811d664110b062173c2d0730fc":{
+      "scriptId":"u4"}}});

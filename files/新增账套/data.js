@@ -1,0 +1,199 @@
+﻿$axure.loadCurrentPage({
+  "url":"新增账套.html",
+  "generationDate":new Date(1462938818168.27),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"4eb7b23b1bc94a8dbe7ae156fa7a87ed",
+    "type":"Axure:Page",
+    "name":"新增账套",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9f89839cb5e8404db022a51922bee6e4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c2bfe6ec344a4e5fbdb258d344c62ef0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/新增账套/u0.png"}},
+{
+          "id":"d311dfa8bdee4f20bde44d8becc3c014",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":508,
+              "y":38},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 企业账套",
+                      "target":{
+                        "targetType":"page",
+                        "url":"企业账套.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"856f7e5d5fdd401f81e4b92f7fa3b4c8",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":520,
+              "y":98},
+            "size":{
+              "width":500,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 新增账套-文字录入",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新增账套-文字录入.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"9ce50f3cf2f947309584a979de9d7d61",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":508,
+              "y":857},
+            "size":{
+              "width":512,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 企业账套",
+                      "target":{
+                        "targetType":"page",
+                        "url":"企业账套.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"8c8873a438f7400d8b9962f06dc1ecbf",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":630,
+              "y":287},
+            "size":{
+              "width":390,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 新境账套-下拉菜单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新境账套-下拉菜单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9f89839cb5e8404db022a51922bee6e4":{
+      "scriptId":"u0"},
+    "c2bfe6ec344a4e5fbdb258d344c62ef0":{
+      "scriptId":"u1"},
+    "d311dfa8bdee4f20bde44d8becc3c014":{
+      "scriptId":"u2"},
+    "856f7e5d5fdd401f81e4b92f7fa3b4c8":{
+      "scriptId":"u3"},
+    "9ce50f3cf2f947309584a979de9d7d61":{
+      "scriptId":"u4"},
+    "8c8873a438f7400d8b9962f06dc1ecbf":{
+      "scriptId":"u5"}}});

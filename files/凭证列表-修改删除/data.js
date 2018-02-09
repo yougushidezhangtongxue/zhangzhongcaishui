@@ -1,0 +1,135 @@
+﻿$axure.loadCurrentPage({
+  "url":"凭证列表-修改删除.html",
+  "generationDate":new Date(1462938818422.29),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"5e09a2f428bf42a8b5fd922e4140aa67",
+    "type":"Axure:Page",
+    "name":"凭证列表-修改删除",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"3cb126d1b5874b73a07b8f9bbb044359",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a1b33bb5b74a4018b010b2e0bcc5f2ca",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/凭证列表-修改删除/u0.png"}},
+{
+          "id":"7448286640604675a652f6e38334fff8",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":530,
+              "y":790},
+            "size":{
+              "width":470,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 修改凭证",
+                      "target":{
+                        "targetType":"page",
+                        "url":"修改凭证.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"b06deebf280a4c5ab4122b23b8a4f91d",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":530,
+              "y":870},
+            "size":{
+              "width":470,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 凭证列表-删除提示框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"凭证列表-删除提示框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "3cb126d1b5874b73a07b8f9bbb044359":{
+      "scriptId":"u0"},
+    "a1b33bb5b74a4018b010b2e0bcc5f2ca":{
+      "scriptId":"u1"},
+    "7448286640604675a652f6e38334fff8":{
+      "scriptId":"u2"},
+    "b06deebf280a4c5ab4122b23b8a4f91d":{
+      "scriptId":"u3"}}});

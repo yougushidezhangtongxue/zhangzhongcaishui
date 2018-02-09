@@ -1,0 +1,315 @@
+﻿$axure.loadCurrentPage({
+  "url":"总分类账.html",
+  "generationDate":new Date(1462938818664.3),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"138275f2e47546d8bca6b49beee43026",
+    "type":"Axure:Page",
+    "name":"总分类账",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"6f5f3fa369e443e3a6cec50a427e1d0a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f4a6a177ac664da98c77351d0a4de50f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总分类账/u0.png"}},
+{
+          "id":"c77da594c3c0470f8371dd0e74696af1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":504,
+              "y":38},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 账簿",
+                      "target":{
+                        "targetType":"page",
+                        "url":"账簿.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"0f291bcf29fc4ab8b3c146a988973a21",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":520,
+              "y":210},
+            "size":{
+              "width":90,
+              "height":90}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 明细账",
+                      "target":{
+                        "targetType":"page",
+                        "url":"明细账.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ce372641504040d7a43c3a133fab19e0",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":597,
+              "y":98},
+            "size":{
+              "width":37,
+              "height":27}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0ba67a77a5ee49b799f899f15b733e35",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":597,
+                  "y":98},
+                "size":{
+                  "width":37,
+                  "height":27}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总分类账/u4.png"}},
+{
+          "id":"8caf1c0547644aa1a59c05e59a115f92",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":597,
+              "y":98},
+            "size":{
+              "width":42,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"cb0019a8e70c4e00a95e0f5534773027",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":597,
+                  "y":98},
+                "size":{
+                  "width":42,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总分类账/u6.png"}},
+{
+          "id":"4b7c9b249088485f9fc4a2c1ff3357d2",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":634,
+              "y":99},
+            "size":{
+              "width":84,
+              "height":23}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"773e72922f6845078525ec3fd70b7372",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":634,
+                  "y":99},
+                "size":{
+                  "width":84,
+                  "height":23}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总分类账/u8.png"}},
+{
+          "id":"5532d21308bc45a298aba3a4f3457f0b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":503,
+              "y":94.5},
+            "size":{
+              "width":215,
+              "height":34}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3483094cabac4f08a9f0b68b5d475489",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":503,
+                  "y":94.5},
+                "size":{
+                  "width":215,
+                  "height":34}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总分类账/u10.png"}},
+{
+          "id":"9a4007688704441a9c594e20bea0d612",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":503,
+              "y":90},
+            "size":{
+              "width":156,
+              "height":42}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 总分类账-日期弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"总分类账-日期弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "6f5f3fa369e443e3a6cec50a427e1d0a":{
+      "scriptId":"u0"},
+    "f4a6a177ac664da98c77351d0a4de50f":{
+      "scriptId":"u1"},
+    "c77da594c3c0470f8371dd0e74696af1":{
+      "scriptId":"u2"},
+    "0f291bcf29fc4ab8b3c146a988973a21":{
+      "scriptId":"u3"},
+    "ce372641504040d7a43c3a133fab19e0":{
+      "scriptId":"u4"},
+    "0ba67a77a5ee49b799f899f15b733e35":{
+      "scriptId":"u5"},
+    "8caf1c0547644aa1a59c05e59a115f92":{
+      "scriptId":"u6"},
+    "cb0019a8e70c4e00a95e0f5534773027":{
+      "scriptId":"u7"},
+    "4b7c9b249088485f9fc4a2c1ff3357d2":{
+      "scriptId":"u8"},
+    "773e72922f6845078525ec3fd70b7372":{
+      "scriptId":"u9"},
+    "5532d21308bc45a298aba3a4f3457f0b":{
+      "scriptId":"u10"},
+    "3483094cabac4f08a9f0b68b5d475489":{
+      "scriptId":"u11"},
+    "9a4007688704441a9c594e20bea0d612":{
+      "scriptId":"u12"}}});

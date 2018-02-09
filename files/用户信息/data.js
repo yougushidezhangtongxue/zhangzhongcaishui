@@ -1,0 +1,167 @@
+﻿$axure.loadCurrentPage({
+  "url":"用户信息.html",
+  "generationDate":new Date(1462938817622.24),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"af0077502b8241ddba468a5ed970ef1c",
+    "type":"Axure:Page",
+    "name":"用户信息",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"82c6a0f3fa2e452ba49f0f73afb2fab3",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9c87b37a35f746ae8449b4df2c859cd5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/用户信息/u0.png"}},
+{
+          "id":"d4424dc2daa74ee4a9b417207b1209b8",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":510,
+              "y":858},
+            "size":{
+              "width":510,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 科目期初",
+                      "target":{
+                        "targetType":"page",
+                        "url":"科目期初.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"1c9011198eff4e019efee5af29accb51",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":516,
+              "y":175},
+            "size":{
+              "width":490,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户信息下拉框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户信息下拉框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"395a5dbf7a0f4d35a42d4b981697da61",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":515,
+              "y":110},
+            "size":{
+              "width":490,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户信息-录入",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户信息-录入.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "82c6a0f3fa2e452ba49f0f73afb2fab3":{
+      "scriptId":"u0"},
+    "9c87b37a35f746ae8449b4df2c859cd5":{
+      "scriptId":"u1"},
+    "d4424dc2daa74ee4a9b417207b1209b8":{
+      "scriptId":"u2"},
+    "1c9011198eff4e019efee5af29accb51":{
+      "scriptId":"u3"},
+    "395a5dbf7a0f4d35a42d4b981697da61":{
+      "scriptId":"u4"}}});

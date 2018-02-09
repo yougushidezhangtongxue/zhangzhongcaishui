@@ -1,0 +1,167 @@
+﻿$axure.loadCurrentPage({
+  "url":"直接跳到-增加子级.html",
+  "generationDate":new Date(1462348137673.82),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"95c5d71b8f5d454a82c07dde736a0894",
+    "type":"Axure:Page",
+    "name":"直接跳到-增加子级",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"f0dfdf7391dd4ceba4c4f3cf548c0f20",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"42c74bc1eb644ddeb15fd69df47fb1dc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/直接跳到-增加子级/u0.png"}},
+{
+          "id":"5089cdee477d4b1f9c4cd352110a6fb4",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":507,
+              "y":38},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 会计科目",
+                      "target":{
+                        "targetType":"page",
+                        "url":"会计科目.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"7441c2daa41d4305a8fbbd313cc73232",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":507,
+              "y":98},
+            "size":{
+              "width":253,
+              "height":62}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 科目期初",
+                      "target":{
+                        "targetType":"page",
+                        "url":"科目期初_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"3eb5e0b56722458488be1b38a2675078",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":507,
+              "y":856},
+            "size":{
+              "width":513,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 会计科目",
+                      "target":{
+                        "targetType":"page",
+                        "url":"会计科目.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "f0dfdf7391dd4ceba4c4f3cf548c0f20":{
+      "scriptId":"u0"},
+    "42c74bc1eb644ddeb15fd69df47fb1dc":{
+      "scriptId":"u1"},
+    "5089cdee477d4b1f9c4cd352110a6fb4":{
+      "scriptId":"u2"},
+    "7441c2daa41d4305a8fbbd313cc73232":{
+      "scriptId":"u3"},
+    "3eb5e0b56722458488be1b38a2675078":{
+      "scriptId":"u4"}}});

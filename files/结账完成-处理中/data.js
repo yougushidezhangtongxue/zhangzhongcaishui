@@ -1,0 +1,86 @@
+﻿$axure.loadCurrentPage({
+  "url":"结账完成-处理中.html",
+  "generationDate":new Date(1462938818556.29),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"de2227b220fe44a1b05033622ef2f681",
+    "type":"Axure:Page",
+    "name":"结账完成-处理中",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"fff145f8b4f2494ea5e44eb2e9845985",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"12ba09e98c884c9c8c1d9998ae7d011c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 结账完成-期末余额",
+                      "target":{
+                        "targetType":"page",
+                        "url":"结账完成-期末余额.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/结账完成-处理中/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "fff145f8b4f2494ea5e44eb2e9845985":{
+      "scriptId":"u0"},
+    "12ba09e98c884c9c8c1d9998ae7d011c":{
+      "scriptId":"u1"}}});

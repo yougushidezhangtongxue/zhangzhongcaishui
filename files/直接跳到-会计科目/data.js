@@ -1,0 +1,135 @@
+﻿$axure.loadCurrentPage({
+  "url":"直接跳到-会计科目.html",
+  "generationDate":new Date(1462348137631.82),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"efd3f74b51544ea6a13f3fd5e6d1c820",
+    "type":"Axure:Page",
+    "name":"直接跳到-会计科目",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"940d7ef994ea48c1b637042d8e49cc04",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3a0baa3979c846e4851ce8b591e2f7b2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/直接跳到-会计科目/u0.png"}},
+{
+          "id":"bd1a7b0358ec4ab4a4c0bf0e9bd23334",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":245},
+            "size":{
+              "width":529,
+              "height":115}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 科目期初",
+                      "target":{
+                        "targetType":"page",
+                        "url":"科目期初_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"26c1bfba4a3b4d47a7d506b0a6aba2ec",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":504,
+              "y":40},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 直接跳到-我",
+                      "target":{
+                        "targetType":"page",
+                        "url":"直接跳到-我.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "940d7ef994ea48c1b637042d8e49cc04":{
+      "scriptId":"u0"},
+    "3a0baa3979c846e4851ce8b591e2f7b2":{
+      "scriptId":"u1"},
+    "bd1a7b0358ec4ab4a4c0bf0e9bd23334":{
+      "scriptId":"u2"},
+    "26c1bfba4a3b4d47a7d506b0a6aba2ec":{
+      "scriptId":"u3"}}});

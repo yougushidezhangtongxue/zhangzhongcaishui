@@ -1,0 +1,408 @@
+﻿$axure.loadCurrentPage({
+  "url":"模板-新境凭证.html",
+  "generationDate":new Date(1462938818327.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ec5aef28100a437a9a2edd8652635458",
+    "type":"Axure:Page",
+    "name":"模板-新境凭证",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"66c452aeb27e492e8e4fb7c1d2598b54",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"acd62254d37e43fd84801584c5269281",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/记账-新增凭证/u0.png"}},
+{
+          "id":"6d2747b7909c4832a7cd5904cfe34fe7",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":520,
+              "y":220},
+            "size":{
+              "width":490,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择会计科目",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择会计科目.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"74ae94bed5cf44f89e789bdfbb9dec95",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":520,
+              "y":433},
+            "size":{
+              "width":490,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择会计科目",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择会计科目.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"8e3c18fd63b84ab2be144e7546d140ad",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":690,
+              "y":90},
+            "size":{
+              "width":140,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 模板-时间弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"模板-时间弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"696b435237cc4001b9547399ebe0daa2",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":979,
+              "y":150},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 模板-增减行弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"模板-增减行弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"5ff73149bce84e1c8ff1260ba5d907b3",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":979,
+              "y":360},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 模板-增减行弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"模板-增减行弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"cc470aa32f4342f4939385a5776aabb5",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":540,
+              "y":873},
+            "size":{
+              "width":460,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 模板",
+                      "target":{
+                        "targetType":"page",
+                        "url":"模板.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"d4932cd0f96e4acabd1247aaecd904cf",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":540,
+              "y":160},
+            "size":{
+              "width":330,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 模板-计提弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"模板-计提弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ed292ef6d1c94d3eb26cdec052a5656f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":540,
+              "y":373},
+            "size":{
+              "width":350,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 模板-计提弹出框",
+                      "target":{
+                        "targetType":"page",
+                        "url":"模板-计提弹出框.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"b1f38baaca4544b5aa12a54043beecf1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":506,
+              "y":40},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 模板",
+                      "target":{
+                        "targetType":"page",
+                        "url":"模板.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"565efb796d074daf8c6b2072e9ed8db2",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFF4F4F4},
+            "location":{
+              "x":840,
+              "y":780},
+            "size":{
+              "width":180,
+              "height":83},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFF4F4F4}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d8e326fa37534763ae5398744e2124ce",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFF4F4F4},
+                "location":{
+                  "x":840,
+                  "y":780},
+                "size":{
+                  "width":180,
+                  "height":83},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFF4F4F4}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/模板-新境凭证/u11.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "66c452aeb27e492e8e4fb7c1d2598b54":{
+      "scriptId":"u0"},
+    "acd62254d37e43fd84801584c5269281":{
+      "scriptId":"u1"},
+    "6d2747b7909c4832a7cd5904cfe34fe7":{
+      "scriptId":"u2"},
+    "74ae94bed5cf44f89e789bdfbb9dec95":{
+      "scriptId":"u3"},
+    "8e3c18fd63b84ab2be144e7546d140ad":{
+      "scriptId":"u4"},
+    "696b435237cc4001b9547399ebe0daa2":{
+      "scriptId":"u5"},
+    "5ff73149bce84e1c8ff1260ba5d907b3":{
+      "scriptId":"u6"},
+    "cc470aa32f4342f4939385a5776aabb5":{
+      "scriptId":"u7"},
+    "d4932cd0f96e4acabd1247aaecd904cf":{
+      "scriptId":"u8"},
+    "ed292ef6d1c94d3eb26cdec052a5656f":{
+      "scriptId":"u9"},
+    "b1f38baaca4544b5aa12a54043beecf1":{
+      "scriptId":"u10"},
+    "565efb796d074daf8c6b2072e9ed8db2":{
+      "scriptId":"u11"},
+    "d8e326fa37534763ae5398744e2124ce":{
+      "scriptId":"u12"}}});

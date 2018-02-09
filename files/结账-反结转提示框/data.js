@@ -1,0 +1,135 @@
+﻿$axure.loadCurrentPage({
+  "url":"结账-反结转提示框.html",
+  "generationDate":new Date(1462938818505.29),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"d65f2ede53ea4ebab65009bd72f85685",
+    "type":"Axure:Page",
+    "name":"结账-反结转提示框",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"0fbf5b7dfdd442b6a42ff5540b7981fc",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":0},
+            "size":{
+              "width":529,
+              "height":940}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"aace27c47ae8418b9fa6d02cd1d0e8ef",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":500,
+                  "y":0},
+                "size":{
+                  "width":529,
+                  "height":940}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/结账-反结转提示框/u0.png"}},
+{
+          "id":"8cca0ba962bc491090be26c9ec785399",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":570,
+              "y":550},
+            "size":{
+              "width":160,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 结账-凭证列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"结账-凭证列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ff7c2c16e38a4614b99561ded7a414ae",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":780,
+              "y":550},
+            "size":{
+              "width":180,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 结账-反结转处理中",
+                      "target":{
+                        "targetType":"page",
+                        "url":"结账-反结转处理中.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "0fbf5b7dfdd442b6a42ff5540b7981fc":{
+      "scriptId":"u0"},
+    "aace27c47ae8418b9fa6d02cd1d0e8ef":{
+      "scriptId":"u1"},
+    "8cca0ba962bc491090be26c9ec785399":{
+      "scriptId":"u2"},
+    "ff7c2c16e38a4614b99561ded7a414ae":{
+      "scriptId":"u3"}}});
